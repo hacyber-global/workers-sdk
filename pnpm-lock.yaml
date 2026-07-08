@@ -2376,8 +2376,8 @@ importers:
         specifier: 0.4.1
         version: 0.4.1
       hono:
-        specifier: ^4.12.5
-        version: 4.12.5
+        specifier: ^4.12.25
+        version: 4.12.25
       http-cache-semantics:
         specifier: ^4.1.0
         version: 4.1.1
@@ -2482,8 +2482,8 @@ importers:
   packages/playground-preview-worker:
     dependencies:
       hono:
-        specifier: ^4.12.5
-        version: 4.12.5
+        specifier: ^4.12.25
+        version: 4.12.25
       zod:
         specifier: ^3.22.3
         version: 3.22.3
@@ -2562,10 +2562,10 @@ importers:
     dependencies:
       '@hono/zod-validator':
         specifier: ^0.4.2
-        version: 0.4.2(hono@4.12.5)(zod@3.22.3)
+        version: 0.4.2(hono@4.12.25)(zod@3.22.3)
       hono:
-        specifier: ^4.12.5
-        version: 4.12.5
+        specifier: ^4.12.25
+        version: 4.12.25
       zod:
         specifier: ^3.22.3
         version: 3.22.3
@@ -11657,8 +11657,8 @@ packages:
   heap@0.2.7:
     resolution: {integrity: sha512-2bsegYkkHO+h/9MGbn6KWcE45cHZgPANo5LXF7EvWdT0yT2EguSVO1nDgU5c8+ZOPwp2vMNa7YFsJhVcDR9Sdg==}
 
-  hono@4.12.5:
-    resolution: {integrity: sha512-3qq+FUBtlTHhtYxbxheZgY8NIFnkkC/MR8u5TTsr7YZ3wixryQ3cCwn3iZbg8p8B88iDBBAYSfZDS75t8MN7Vg==}
+  hono@4.12.25:
+    resolution: {integrity: sha512-2NFaIyNVgJmBs/ecmtGzlmluTFs5cHEWGTdu0t1HBwYzoGXOL5nUQBRMXsXWla5i4KkG//QMzVP88m1+I3fdAQ==}
     engines: {node: '>=16.9.0'}
 
   hono@4.7.10:
@@ -17923,9 +17923,9 @@ snapshots:
     dependencies:
       hono: 4.7.10
 
-  '@hono/zod-validator@0.4.2(hono@4.12.5)(zod@3.22.3)':
+  '@hono/zod-validator@0.4.2(hono@4.12.25)(zod@3.22.3)':
     dependencies:
-      hono: 4.12.5
+      hono: 4.12.25
       zod: 3.22.3
 
   '@humanfs/core@0.19.1': {}
@@ -23031,7 +23031,7 @@ snapshots:
 
   heap@0.2.7: {}
 
-  hono@4.12.5: {}
+  hono@4.12.25: {}
 
   hono@4.7.10: {}
 
